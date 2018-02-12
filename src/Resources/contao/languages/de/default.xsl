@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/default.php" source-language="en" target-language="de">
+    <body>
+      <trans-unit id="tl_firerun.opTypeValues.1">
+        <source>false alarm</source>
+        <target>Blinder Alarm</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.2">
+        <source>large fire</source>
+        <target>Großbrand</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.3">
+        <source>small fire</source>
+        <target>Kleinbrand</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.4">
+        <source>small fire (car)</source>
+        <target>Kleinbrand eines PKW</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.5">
+        <source>small fire (van)</source>
+        <target>Kleinbrand eines Transporters</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.6">
+        <source>detector alarm</source>
+        <target>Melderalarm</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.7">
+        <source>detector alarm (disaster management exercise)</source>
+        <target>Melderalarm - Katastrophenschutzübung</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.8">
+        <source>medium fire</source>
+        <target>Mittelbrand</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.9">
+        <source>medium fire (construction machine)</source>
+        <target>Mittelbrand Baumaschine</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.10">
+        <source>medium fire (house)</source>
+        <target>Mittelbrand eines Hauses</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.11">
+        <source>other</source>
+        <target>sonstige</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.12">
+        <source>technical support</source>
+        <target>Technische Hilfeleistung</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.13">
+        <source>regional run</source>
+        <target>Überörtlicher Einsatz</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.14">
+        <source>regional run and large fire</source>
+        <target>Überörtlicher Einsatz und Großbrand</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.15">
+        <source>flood</source>
+        <target>Hochwasser</target>
+      </trans-unit>
+      <trans-unit id="tl_firerun.opTypeValues.16">
+        <source>disaster alert</source>
+        <target>Katastrophenalarm</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
