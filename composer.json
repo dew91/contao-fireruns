@@ -1,0 +1,39 @@
+{
+	"name":"dew91/contao-fireruns",
+	"description":"Contao bundle for showing a list of fire runs filtered by year.",
+	"keywords":["contao", "fire", "runs", "list", "einsatzliste", "einsätze"],
+	"type":"contao-bundle",
+	"homepage":"http://www.dominic-ernst.com",
+	"license":"proprietary",
+	"authors":[
+		{
+			"name":"Dominic Ernst",
+			"homepage":"http://www.dominic-ernst.com",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"issues":"https://github.com/dew91/contao-fireruns/issues",
+		"source":"https://github.com/dew91/contao-fireruns"
+	},
+	"require":{
+		"php":">=5.5",
+		"contao/core-bundle":"^4.3"
+	},
+	"require-dev": {
+		"contao/manager-plugin": "^2.0"
+	},
+	"conflict": {
+		"contao/core": "*",
+		"contao/manager-plugin": "<2.0 || >=3.0"
+	},
+	"autoload":{
+		"psr-4": {
+			"dew91\\Einsatzliste\\": "src/"
+		}
+	},
+	"extra": {
+		 "contao-manager-plugin": "dew91\\FireRuns\\ContaoManagerPlugin"
+	},
+	"replace":{}
+}

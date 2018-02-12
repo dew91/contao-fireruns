@@ -1,0 +1,27 @@
+<div id="nav_year">
+	<b>Year:&nbsp;</b>
+	<?php
+		for($i=$this->YearMin; $i <= $this->YearMax; $i++)
+		{
+			if($this->Year == $i) $_class = ' class="active"'; else $_class = '';
+			echo '<a'.$_class.' href="'.sprintf($this->YearURL, $i).'">'.$i.'</a>&nbsp;&nbsp;&nbsp;';
+		}
+	?>
+</div>
+
+<?php $runCount = count($this->eItems); ?>
+<h2>Fire runs <?= $this->Year ?></h2>
+<?php if($runCount): ?>
+	<table id="tbl_fireruns">
+		<?php foreach($this->eItems as $eItem): ?>
+			<tr>
+				<td><b><?= date('d.m.Y', $eItem->opDateTime); ?>&nbsp;<?= date('H:i', $eItem->opDateTime); ?></b></td>
+				<td><i><u>Type:</u></i>&nbsp;<?= $this->opTypeValues[$eItem->opType]; ?><br /><i><u>State&nbsp;at&nbsp;arrival:</u></i>&nbsp;<?= $eItem->opArrivalState; ?><br /><i><u>Measures:</u></i>&nbsp;<?= $eItem->opMeasures; ?><br />&nbsp;</td>
+			</tr>
+		<?php endforeach; ?>
+	</table>
+<?php else: ?>
+	<p>No records found for year <b><?= $this->Year; ?></b>.</p>
+<?php endif; ?>
+
+<p><?php if($runCount): ?><b>Fire runs list count:</b> <?= $runCount ?> in <?= $this->Year ?><br /><?php endif; ?><b>Fire runs total count:</b> <?= $this->OverallCount; ?></p>
