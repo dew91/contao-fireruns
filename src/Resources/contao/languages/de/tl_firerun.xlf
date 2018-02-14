@@ -19,24 +19,24 @@
         <target>Art des Einsatzes</target>
       </trans-unit>
       <trans-unit id="tl_firerun.field_opType.1">
-        <source>&nbsp;</source>
-        <target>&nbsp;</target>
+        <source></source>
+        <target></target>
       </trans-unit>
       <trans-unit id="tl_firerun.field_opArrivalState.0">
         <source>State at arrival</source>
         <target>Lage bei Eintreffen</target>
       </trans-unit>
       <trans-unit id="tl_firerun.field_opArrivalState.1">
-        <source>&nbsp;</source>
-        <target>&nbsp;</target>
+        <source></source>
+        <target></target>
       </trans-unit>
       <trans-unit id="tl_firerun.field_opMeasures.0">
         <source>Measures</source>
         <target>Maßnahmen</target>
       </trans-unit>
       <trans-unit id="tl_firerun.field_opMeasures.1">
-        <source>&nbsp;</source>
-        <target>&nbsp;</target>
+        <source></source>
+        <target></target>
       </trans-unit>
       <trans-unit id="tl_firerun.field_opVisible.0">
         <source>Run visible</source>
