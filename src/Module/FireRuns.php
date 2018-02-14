@@ -56,8 +56,8 @@ class FireRuns extends \Module
 
 		// Assign URL get parameter "year"
 		// -> for implementing year filtering
-		\Input::setGet('year', \Input::get('year'));
-		$this->curYear = \Input::get('year');
+		\Input::setGet($GLOBALS['TL_LANG']['tl_firerun']['getParamYear'], \Input::get($GLOBALS['TL_LANG']['tl_firerun']['getParamYear']));
+		$this->curYear = \Input::get($GLOBALS['TL_LANG']['tl_firerun']['getParamYear']);
 
 		return parent::generate();
 	}
@@ -84,7 +84,7 @@ class FireRuns extends \Module
 
 		// Set link template for year links
 		global $objPage;
-		$this->Template->YearURL = $this->generateFrontendUrl($objPage->row(), '/year/%s');
+		$this->Template->YearURL = $this->generateFrontendUrl($objPage->row(), '/'.$GLOBALS['TL_LANG']['tl_firerun']['getParamYear'].'/%s');
 
 		// Load operation kinds from language array
 		$this->Template->opTypeValues = $GLOBALS['TL_LANG']['tl_firerun']['opTypeValues'];

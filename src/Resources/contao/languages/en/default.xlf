@@ -50,6 +50,9 @@
       <trans-unit id="tl_firerun.opTypeValues.16">
         <source>disaster alert</source>
       </trans-unit>
+      <trans-unit id="tl_firerun.getParamYear">
+        <source>year</source>
+      </trans-unit>
     </body>
   </file>
 </xliff>

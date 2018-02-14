@@ -66,6 +66,10 @@
         <source>disaster alert</source>
         <target>Katastrophenalarm</target>
       </trans-unit>
+      <trans-unit id="tl_firerun.getParamYear">
+        <source>year</source>
+        <target>jahr</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
