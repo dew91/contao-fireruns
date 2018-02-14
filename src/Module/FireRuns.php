@@ -94,6 +94,9 @@ class FireRuns extends \Module
 
 		// Load total count of operations
 		$this->Template->OverallCount = $this->getFireRunsCount();
+
+		// Assign translation strings to template
+		$this->Template->lang = $GLOBALS['TL_LANG']['tl_firerun']['template'];
 	}
 
 	/**

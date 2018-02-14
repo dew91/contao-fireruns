@@ -70,6 +70,10 @@
         <source>year</source>
         <target>jahr</target>
       </trans-unit>
+      <trans-unit id="tl_firerun.template.year">
+        <source>Year</source>
+        <target>Jahr</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -53,6 +53,9 @@
       <trans-unit id="tl_firerun.getParamYear">
         <source>year</source>
       </trans-unit>
+      <trans-unit id="tl_firerun.template.year">
+        <source>Year</source>
+      </trans-unit>
     </body>
   </file>
 </xliff>

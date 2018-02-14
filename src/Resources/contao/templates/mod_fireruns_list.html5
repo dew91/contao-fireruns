@@ -1,5 +1,5 @@
 <div id="nav_year">
-	<b>Year:&nbsp;</b>
+	<b><?php echo $this->lang['year']; ?>:&nbsp;</b>
 	<?php
 		for($i=$this->YearMin; $i <= $this->YearMax; $i++)
 		{
