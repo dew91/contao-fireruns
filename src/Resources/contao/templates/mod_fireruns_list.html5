@@ -1,5 +1,5 @@
 <div id="nav_year">
-	<b><?php echo $this->lang['year']; ?>:&nbsp;</b>
+	<b><?= $this->lang['year']; ?>:&nbsp;</b>
 	<?php
 		for($i=$this->YearMin; $i <= $this->YearMax; $i++)
 		{
@@ -10,18 +10,18 @@
 </div>
 
 <?php $runCount = count($this->eItems); ?>
-<h2>Fire runs <?= $this->Year ?></h2>
+<h2><?= sprintf($this->lang['title'], $this->Year); ?></h2>
 <?php if($runCount): ?>
 	<table id="tbl_fireruns">
 		<?php foreach($this->eItems as $eItem): ?>
 			<tr>
-				<td><b><?= date('d.m.Y', $eItem->opDateTime); ?>&nbsp;<?= date('H:i', $eItem->opDateTime); ?></b></td>
-				<td><i><u>Type:</u></i>&nbsp;<?= $this->opTypeValues[$eItem->opType]; ?><br /><i><u>State&nbsp;at&nbsp;arrival:</u></i>&nbsp;<?= $eItem->opArrivalState; ?><br /><i><u>Measures:</u></i>&nbsp;<?= $eItem->opMeasures; ?><br />&nbsp;</td>
+				<td><b><?= date($this->lang['formatDate'], $eItem->opDateTime); ?>&nbsp;<?= date($this->lang['formatTime'], $eItem->opDateTime); ?></b></td>
+				<td><i><u><?= $this->lang['type']; ?>:</u></i>&nbsp;<?= $this->opTypeValues[$eItem->opType]; ?><br /><i><u><?= $this->lang['state']; ?>:</u></i>&nbsp;<?= $eItem->opArrivalState; ?><br /><i><u><?= $this->lang['measures']; ?>:</u></i>&nbsp;<?= $eItem->opMeasures; ?><br />&nbsp;</td>
 			</tr>
 		<?php endforeach; ?>
 	</table>
 <?php else: ?>
-	<p>No records found for year <b><?= $this->Year; ?></b>.</p>
+	<p><?= sprintf($this->lang['noRecords'], $this->Year); ?></p>
 <?php endif; ?>
 
-<p><?php if($runCount): ?><b>Fire runs list count:</b> <?= $runCount ?> in <?= $this->Year ?><br /><?php endif; ?><b>Fire runs total count:</b> <?= $this->OverallCount; ?></p>
+<p><?php if($runCount): ?><?= sprintf($this->lang['countList'], $runCount, $this->Year); ?><br /><?php endif; ?><?= sprintf($this->lang['countTotal'], $this->OverallCount); ?></p>

@@ -56,6 +56,33 @@
       <trans-unit id="tl_firerun.template.year">
         <source>Year</source>
       </trans-unit>
+      <trans-unit id="tl_firerun.template.title">
+        <source>Fire runs %i</source>
+      </trans-unit>
+      <trans-unit id="tl_firerun.template.formatDate">
+        <source>m-d-Y</source>
+      </trans-unit>
+      <trans-unit id="tl_firerun.template.formatTime">
+        <source>H:i</source>
+      </trans-unit>
+      <trans-unit id="tl_firerun.template.type">
+        <source>Type</source>
+      </trans-unit>
+      <trans-unit id="tl_firerun.template.state">
+        <source>State at arrival</source>
+      </trans-unit>
+      <trans-unit id="tl_firerun.template.measures">
+        <source>Measures</source>
+      </trans-unit>
+      <trans-unit id="tl_firerun.template.noRecords">
+        <source>No records found for year <b>%i</b>.</source>
+      </trans-unit>
+      <trans-unit id="tl_firerun.template.countList">
+        <source><b>Fire runs listed:</b> %i in %i</source>
+      </trans-unit>
+      <trans-unit id="tl_firerun.template.countTotal">
+        <source><b>Fire runs total:</b> %i</source>
+      </trans-unit>
     </body>
   </file>
 </xliff>
