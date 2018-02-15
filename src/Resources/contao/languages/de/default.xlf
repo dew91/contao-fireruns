@@ -75,8 +75,8 @@
         <target>Jahr</target>
       </trans-unit>
       <trans-unit id="tl_firerun.template.title">
-        <source>Fire runs %i</source>
-        <target>Einsätze %i</target>
+        <source>Fire runs %d</source>
+        <target>Einsätze %d</target>
       </trans-unit>
       <trans-unit id="tl_firerun.template.formatDate">
         <source>m-d-Y</source>
@@ -99,16 +99,16 @@
         <target>Maßnahmen</target>
       </trans-unit>
       <trans-unit id="tl_firerun.template.noRecords">
-        <source>No records found for year <b>%%i</b>.</source>
-        <target>Für das Jahr <b>%%i</b> sind keine Einsätze vorhanden.</target>
+        <source>No records found for year <![CDATA[<b>%d</b>]]>.</source>
+        <target>Für das Jahr <![CDATA[<b>%d</b>]]> sind keine Einsätze vorhanden.</target>
       </trans-unit>
       <trans-unit id="tl_firerun.template.countList">
-        <source><b>Fire runs listed:</b> %%i in %%i</source>
-        <target><b>Einsätze gelistet:</b> %%i im Jahr %%i</target>
+        <source><![CDATA[<b>Fire runs listed:</b>]]> %d in %d</source>
+        <target><![CDATA[<b>Einsätze gelistet:</b>]]> %d im Jahr %d</target>
       </trans-unit>
       <trans-unit id="tl_firerun.template.countTotal">
-        <source><b>Fire runs total:</b> %%i</source>
-        <target><b>Einsätze gesamt:</b> %%i</target>
+        <source><![CDATA[<b>Fire runs total:</b>]]> %d</source>
+        <target><![CDATA[<b>Einsätze gesamt:</b>]]> %d</target>
       </trans-unit>
     </body>
   </file>

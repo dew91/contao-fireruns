@@ -57,7 +57,7 @@
         <source>Year</source>
       </trans-unit>
       <trans-unit id="tl_firerun.template.title">
-        <source>Fire runs %i</source>
+        <source>Fire runs %d</source>
       </trans-unit>
       <trans-unit id="tl_firerun.template.formatDate">
         <source>m-d-Y</source>
@@ -75,13 +75,13 @@
         <source>Measures</source>
       </trans-unit>
       <trans-unit id="tl_firerun.template.noRecords">
-        <source>No records found for year <b>%%i</b>.</source>
+        <source>No records found for year <![CDATA[<b>%d</b>]]>.</source>
       </trans-unit>
       <trans-unit id="tl_firerun.template.countList">
-        <source><b>Fire runs listed:</b> %%i in %%i</source>
+        <source><![CDATA[<b>Fire runs listed:</b>]]> %d in %d</source>
       </trans-unit>
       <trans-unit id="tl_firerun.template.countTotal">
-        <source><b>Fire runs total:</b> %%i</source>
+        <source><![CDATA[<b>Fire runs total:</b>]]> %d</source>
       </trans-unit>
     </body>
   </file>
