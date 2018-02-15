@@ -96,7 +96,7 @@
       </trans-unit>
       <trans-unit id="tl_firerun.template.measures">
         <source>Measures</source>
-        <target>Maßnahmen</target>
+        <target>Maßnahmen %i</target>
       </trans-unit>
       <trans-unit id="tl_firerun.template.noRecords">
         <source>No records found for year <b>%i</b>.</source>
