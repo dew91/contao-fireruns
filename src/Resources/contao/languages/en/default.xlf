@@ -75,13 +75,13 @@
         <source>Measures</source>
       </trans-unit>
       <trans-unit id="tl_firerun.template.noRecords">
-        <source>No records found for year <b>%i</b>.</source>
+        <source>No records found for year <b>%%i</b>.</source>
       </trans-unit>
       <trans-unit id="tl_firerun.template.countList">
-        <source><b>Fire runs listed:</b> %i in %i</source>
+        <source><b>Fire runs listed:</b> %%i in %%i</source>
       </trans-unit>
       <trans-unit id="tl_firerun.template.countTotal">
-        <source><b>Fire runs total:</b> %i</source>
+        <source><b>Fire runs total:</b> %%i</source>
       </trans-unit>
     </body>
   </file>

@@ -96,19 +96,19 @@
       </trans-unit>
       <trans-unit id="tl_firerun.template.measures">
         <source>Measures</source>
-        <target>Maßnahmen %i</target>
+        <target>Maßnahmen</target>
       </trans-unit>
       <trans-unit id="tl_firerun.template.noRecords">
-        <source>No records found for year <b>%i</b>.</source>
-        <target>Für das Jahr <b>%i</b> sind keine Einsätze vorhanden.</target>
+        <source>No records found for year <b>%%i</b>.</source>
+        <target>Für das Jahr <b>%%i</b> sind keine Einsätze vorhanden.</target>
       </trans-unit>
       <trans-unit id="tl_firerun.template.countList">
-        <source><b>Fire runs listed:</b> %i in %i</source>
-        <target><b>Einsätze gelistet:</b> %i im Jahr %i</target>
+        <source><b>Fire runs listed:</b> %%i in %%i</source>
+        <target><b>Einsätze gelistet:</b> %%i im Jahr %%i</target>
       </trans-unit>
       <trans-unit id="tl_firerun.template.countTotal">
-        <source><b>Fire runs total:</b> %i</source>
-        <target><b>Einsätze gesamt:</b> %i</target>
+        <source><b>Fire runs total:</b> %%i</source>
+        <target><b>Einsätze gesamt:</b> %%i</target>
       </trans-unit>
     </body>
   </file>
