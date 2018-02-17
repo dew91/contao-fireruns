@@ -9,10 +9,12 @@
 	?>
 </div>
 
-<?php if($this->eItems)
-				$runCount = count($this->eItems);
-			else:
-			 	$runCount = 0;
+<?php
+	if($this->eItems) {
+		$runCount = count($this->eItems);
+	} else {
+		$runCount = 0;
+	}
 ?>
 <h2><?= sprintf($this->lang['title'], $this->Year); ?></h2>
 <?php if($runCount): ?>
